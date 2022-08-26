@@ -37,6 +37,9 @@ public class Posicoes {
 	private boolean ignicao;
 	
 	
+	public Posicoes() {
+		super();
+	}
 
 	public Posicoes(String placa, Instant data_posicao, Integer velocidade, String longitude,
 			String latitude, boolean ignicao) {
